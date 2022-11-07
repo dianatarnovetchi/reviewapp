@@ -4,11 +4,76 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color:  hsl(216, 12%, 8%);
 }
 
 
 .wrapper {
     height: 50%;
-    width: 50%;
-    background-color: red;
+    width: 40%;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 20px;
+    
 }
+
+
+.content {
+    width: 90%;
+    margin: auto;
+    color: white;
+    
+} 
+
+.btn-submit {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+}
+
+.content-btn {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.rating-btn {
+    border-radius: 100%;
+    padding: 20px;
+    border: none;
+    width: 10%;
+    font-size: 20px;
+    background-color: hsl(217, 17%, 34%);
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    
+    
+}
+
+.submit-content {
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+     width: 70%;
+    }
+
+    .rating-btn {
+    width: 30px;
+    height: 10px;
+    margin: 2px;
+    margin-top: 30px;
+    text-align: center;
+    }
+
+  }
